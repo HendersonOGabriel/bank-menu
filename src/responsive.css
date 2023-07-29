@@ -1,0 +1,28 @@
+    @media (max-width: 710px) {
+        header {
+            flex-direction: column;
+            align-items: center;
+            font-size: 3rem;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3rem;
+        }
+        .logo:first-child{
+            padding: 4px 15px 10px 15px;
+        }
+        .menu {
+            margin: 1rem;
+            padding: 8px 30px 8px 30px;
+        }
+        .menu:last-child{
+            margin: 1rem;
+        }
+    }
+    @media (min-width: 1400px) {
+        header {
+            font-size: 5rem;
+        }
+    }

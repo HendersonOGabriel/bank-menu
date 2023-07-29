@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    font-family: 'Oswald', sans-serif, 'Courier New', Courier, monospace;
+    font-size: 2em;
+    cursor: context-menu;
+}
+
+.logo:first-child {
+    background-color: hsl(130, 97%, 65%);
+    padding: 7px 13px 10px 13px;
+    border-radius: 2em;
+    color: #FFFFFF;
+}
+.logo {font-weight: 900;}
+
+.menu:last-child {
+    padding: 5px 13px 10px 13px;
+    margin-left: 3rem;
+    background-color: hsl(130, 97%, 65%);
+    border-radius: 1.5rem;
+    color: #FFFFFF;
+}
+.menu {
+    padding: 5px 13px 10px 13px;
+    transition: 0.2s ease-in-out;
+}
+.menu:hover{
+    background-color: hsl(130, 97%, 65%);
+    color: #FFFFFF;
+}
+
+
+
+
+
